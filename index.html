@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rajan Kumar — Lead SDET | Automation Architect | AI-Powered Quality Engineering</title>
+<meta name="description" content="Lead SDET and automation architect with 11+ years designing end-to-end quality engineering: automation architecture, CI/CD quality gates and AI enablement for telecom, finance and trade management platforms.">
+<meta name="author" content="Rajan Kumar">
+<meta name="theme-color" content="#070a12">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rajan Kumar">
+<meta property="og:title" content="Rajan Kumar — Lead SDET and Automation Test Architect">
+<meta property="og:description" content="Automation architecture, CI/CD quality gates and AI enablement. 11+ years of quality engineering across telecom, finance and trade management.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Rajan Kumar — Lead SDET and Automation Test Architect">
+<meta name="twitter:description" content="Automation architecture, QA, QE, CI/CD quality gates and AI enablement.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23070a12'/><text y='68' x='50' text-anchor='middle' font-size='56' font-family='Georgia,serif' fill='%2322d3ee'>R</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<noscript><style>
+.rv{opacity:1!important;transform:none!important;}
+.acc-body{max-height:none!important;}
+.exp-panel{display:block!important;margin-bottom:16px;}
+.exp-tabs,.filters,.burger{display:none!important;}
+.nav-links{display:flex!important;position:static!important;flex-wrap:wrap;}
+</style></noscript>
+<style>
+:root{
+  --ink:#0b1120;
+  --body:#3f4a5a;
+  --muted:#5b687c;
+  --line:#e6eaf0;
+  --soft:#f6f8fb;
+  --bg:#ffffff;
+  --accent:#0e7f96;
+  --accent-2:#22d3ee;
+  --dark:#070a12;
+  --max:1080px;
+  --narrow:760px;
+  --r:14px;
+  --shadow:0 1px 2px rgba(11,17,32,.04), 0 8px 30px rgba(11,17,32,.06);
+  --shadow-lg:0 2px 4px rgba(11,17,32,.04), 0 20px 60px rgba(11,17,32,.10);
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:80px;}
+body{
+  margin:0;background:var(--bg);color:var(--body);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:16.5px;line-height:1.68;-webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 28px;}
+a{color:var(--accent);text-decoration:none;}
+a:focus-visible,button:focus-visible,[tabindex="0"]:focus-visible{outline:3px solid var(--accent);outline-offset:3px;}
+h1,h2,h3,h4{color:var(--ink);margin:0;line-height:1.2;letter-spacing:-.02em;}
+p{margin:0 0 1.05rem;}
+.serif{font-family:"Instrument Serif",Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.01em;}
+.skip{position:absolute;left:12px;top:-64px;background:var(--ink);color:#fff;padding:10px 16px;border-radius:8px;z-index:200;font-weight:600;}
+.skip:focus{top:12px;}
+
+/* ---------- section scaffolding ---------- */
+section{padding:104px 0;position:relative;}
+#experience,#work{padding:92px 0;}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:.74rem;font-weight:600;text-transform:uppercase;letter-spacing:.16em;
+  color:var(--accent);margin-bottom:20px;
+}
+.eyebrow::before{content:"";width:22px;height:1px;background:var(--accent);opacity:.5;}
+.s-title{font-size:clamp(1.85rem,3.6vw,2.6rem);margin-bottom:14px;}
+.s-sub{color:var(--muted);max-width:58ch;font-size:1.03rem;margin-bottom:0;}
+
+/* ---------- nav ---------- */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  backdrop-filter:saturate(180%) blur(14px);-webkit-backdrop-filter:saturate(180%) blur(14px);
+  background:rgba(255,255,255,.78);border-bottom:1px solid transparent;
+  transition:background .3s ease,border-color .3s ease,box-shadow .3s ease;
+}
+nav.scrolled{border-bottom-color:var(--line);box-shadow:0 1px 20px rgba(11,17,32,.05);}
+.nav-in{max-width:var(--max);margin:0 auto;padding:14px 28px;display:flex;align-items:center;justify-content:space-between;gap:20px;}
+.brand{font-size:1.06rem;color:var(--ink);font-weight:600;letter-spacing:-.02em;white-space:nowrap;}
+.brand span{color:var(--accent);}
+.nav-links{display:flex;gap:4px;align-items:center;}
+.nav-links a{
+  font-size:.875rem;color:var(--muted);padding:7px 12px;border-radius:8px;
+  font-weight:500;transition:color .18s ease,background .18s ease;
+  display:inline-flex;align-items:center;min-height:44px;
+}
+.nav-links a:hover{color:var(--ink);background:var(--soft);}
+.nav-links a.active{color:var(--accent);background:rgba(14,127,150,.07);}
+.nav-cta{background:var(--ink);color:#fff!important;padding:9px 16px!important;border-radius:9px;font-weight:500;font-size:.875rem;}
+.nav-cta:hover{background:var(--accent)!important;}
+.burger{display:none;background:none;border:1px solid var(--line);border-radius:9px;padding:8px 10px;cursor:pointer;width:44px;height:44px;}
+.burger span{display:block;width:17px;height:1.6px;background:var(--ink);margin:3.5px 0;border-radius:2px;}
+
+/* ---------- hero ---------- */
+.hero{background:var(--dark);color:#c9d3e0;padding:172px 0 96px;overflow:hidden;position:relative;}
+.hero::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(760px 420px at 12% 0%,rgba(34,211,238,.16),transparent 62%),
+    radial-gradient(680px 380px at 88% 22%,rgba(99,102,241,.15),transparent 62%),
+    radial-gradient(500px 300px at 55% 100%,rgba(20,184,166,.10),transparent 62%);
+}
+.hero::after{
+  content:"";position:absolute;inset:0;opacity:.32;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);
+  background-size:58px 58px;
+  mask-image:radial-gradient(circle at 50% 30%,#000 0%,transparent 78%);
+  -webkit-mask-image:radial-gradient(circle at 50% 30%,#000 0%,transparent 78%);
+}
+.hero .wrap{position:relative;z-index:2;}
+.badge{
+  display:inline-flex;align-items:center;gap:9px;
+  border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);
+  color:#b4c2d6;padding:6px 14px;border-radius:999px;font-size:.79rem;font-weight:500;
+  margin-bottom:30px;letter-spacing:.01em;
+}
+.dot{width:6px;height:6px;border-radius:50%;background:#34d399;box-shadow:0 0 0 3px rgba(52,211,153,.18);flex:none;}
+.hero h1{color:#fff;font-size:clamp(3rem,8vw,5.6rem);line-height:1.02;margin-bottom:18px;}
+.hero h1 em{font-style:italic;color:var(--accent-2);}
+.hero-role{font-size:clamp(1.02rem,2vw,1.24rem);color:#a6b6cb;font-weight:500;margin-bottom:26px;display:flex;flex-wrap:wrap;align-items:center;gap:10px;}
+.hero-role b{color:#e8eef6;font-weight:600;}
+.sep{width:4px;height:4px;border-radius:50%;background:#4b5b72;}
+.hero-lede{font-size:1.09rem;color:#a2b1c5;max-width:62ch;line-height:1.72;}
+.hero-lede strong{color:#f0f5fa;font-weight:600;}
+.hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:11px;margin-top:36px;}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:11px;
+  font-size:.93rem;font-weight:500;border:1px solid var(--line);color:var(--ink);background:#fff;
+  transition:transform .16s ease,box-shadow .16s ease,background .16s ease,border-color .16s ease;cursor:pointer;
+}
+.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow);}
+.btn-light{background:#fff;color:var(--dark);border-color:#fff;}
+.btn-ghost{background:rgba(255,255,255,.04);color:#d5dfec;border-color:rgba(255,255,255,.16);}
+.btn-ghost:hover{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.3);}
+.stats{list-style:none;margin:52px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;}
+.stat{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);border-radius:12px;padding:16px 18px;}
+.stat b{display:block;font-size:1.55rem;color:#fff;font-weight:600;letter-spacing:-.02em;line-height:1.2;}
+.stat span{display:block;margin-top:4px;font-size:.82rem;color:#a2b1c5;line-height:1.4;}
+
+/* ---------- about ---------- */
+.about-grid{display:grid;grid-template-columns:1.32fr .88fr;gap:42px;align-items:start;margin-top:28px;}
+.about-body{max-width:62ch;}
+.about-body p{font-size:1.02rem;line-height:1.74;}
+.about-body p:last-child{margin-bottom:0;}
+.about-body strong{color:var(--ink);font-weight:600;}
+.about-side{max-width:390px;margin-left:auto;width:100%;}
+.portrait{
+  width:86%;aspect-ratio:1/.92;object-fit:cover;object-position:center 22%;
+  border-radius:var(--r);border:1px solid var(--line);
+  box-shadow:var(--shadow);display:block;margin:0 auto 12px;background:var(--soft);
+}
+.facts{background:var(--soft);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;}
+.facts dl{margin:0;}
+.fact{display:flex;justify-content:space-between;gap:16px;padding:9px 0;border-bottom:1px solid var(--line);font-size:.88rem;}
+.fact:last-child{border-bottom:none;padding-bottom:0;}
+.fact:first-child{padding-top:0;}
+.fact dt{color:var(--muted);}
+.fact dd{margin:0;color:var(--ink);font-weight:500;text-align:right;max-width:270px;}
+
+/* ---------- accordion (work) ---------- */
+.acc{border:1px solid var(--line);border-radius:var(--r);background:#fff;margin-bottom:12px;overflow:hidden;transition:box-shadow .22s ease,border-color .22s ease;}
+.acc:hover{border-color:#d3dae4;}
+.acc.open{box-shadow:var(--shadow-lg);border-color:#cfd8e3;}
+.acc-head{width:100%;text-align:left;background:none;border:none;cursor:pointer;padding:24px 26px;display:flex;gap:20px;align-items:flex-start;font:inherit;color:inherit;}
+.acc-main{flex:1;min-width:0;}
+.acc-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 12px;margin-bottom:6px;}
+.acc-title{font-size:1.1rem;font-weight:600;color:var(--ink);letter-spacing:-.015em;}
+.acc-sum{font-size:.955rem;color:var(--body);margin:0;}
+.chev{flex:none;width:30px;height:30px;border-radius:50%;background:var(--soft);border:1px solid var(--line);display:grid;place-items:center;transition:transform .28s cubic-bezier(.4,0,.2,1),background .2s;margin-top:2px;}
+.acc.open .chev{transform:rotate(180deg);background:var(--accent);border-color:var(--accent);}
+.chev svg{width:13px;height:13px;stroke:var(--muted);}
+.acc.open .chev svg{stroke:#fff;}
+.acc-body{max-height:0;overflow:hidden;transition:max-height .38s cubic-bezier(.4,0,.2,1);}
+.acc-inner{padding:0 26px 26px;}
+.acc-links{display:flex;flex-wrap:wrap;gap:9px;padding:0 26px 22px;margin-top:-8px;}
+.acc-link{display:inline-flex;align-items:center;gap:7px;font-size:.845rem;font-weight:600;padding:7px 14px;border-radius:9px;border:1px solid var(--line);background:#fff;color:var(--body);min-height:44px;}
+.acc-link:hover{border-color:#cfd8e3;box-shadow:var(--shadow);}
+
+/* ---------- experience tabs ---------- */
+.exp-shell{display:grid;grid-template-columns:220px 1fr;gap:34px;align-items:start;margin-top:30px;}
+.exp-tabs{display:flex;flex-direction:column;gap:8px;position:sticky;top:96px;}
+.exp-tab{
+  width:100%;text-align:left;background:transparent;border:1px solid transparent;border-left:2px solid transparent;
+  border-radius:10px;padding:13px 14px;font:inherit;color:var(--muted);cursor:pointer;min-height:56px;
+  transition:background .18s ease,border-color .18s ease,color .18s ease,box-shadow .18s ease;
+}
+.exp-tab:hover{background:#fff;border-color:var(--line);color:var(--body);}
+.exp-tab.active{background:#fff;border-color:var(--line);border-left-color:var(--accent);color:var(--ink);box-shadow:var(--shadow);}
+.exp-tab b{display:block;font-size:.92rem;line-height:1.35;}
+.exp-tab span{display:block;margin-top:3px;font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);}
+.exp-panel{display:none;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:30px 32px;box-shadow:var(--shadow);}
+.exp-panel.active{display:block;}
+.exp-head{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:16px;}
+.exp-head h3{font-size:1.35rem;}
+.exp-head h3 span{color:var(--accent);}
+.exp-date-pill{flex:none;font-size:.8rem;color:var(--muted);background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:5px 11px;margin-top:2px;white-space:nowrap;}
+.exp-summary{font-size:.98rem;color:var(--body);max-width:68ch;margin-bottom:18px;}
+.exp-metrics{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px;padding:0;list-style:none;}
+.exp-metric{font-size:.8rem;font-weight:600;color:var(--accent);background:rgba(14,127,150,.08);border:1px solid rgba(14,127,150,.14);border-radius:999px;padding:6px 11px;}
+.exp-panel ul.points{margin:0;padding-left:18px;}
+.exp-panel li{margin-bottom:11px;font-size:.965rem;}
+.exp-panel li:last-child{margin-bottom:0;}
+.exp-panel li::marker{color:var(--accent);}
+.exp-panel h4{font-size:1.05rem;margin:22px 0 2px;}
+.exp-panel h4:first-of-type{margin-top:4px;}
+.exp-sub{color:var(--muted);font-size:.88rem;margin-bottom:8px;}
+.exp-link{display:inline-flex;align-items:center;margin-top:20px;font-size:.9rem;font-weight:600;color:var(--accent);}
+.stackline{margin-top:18px;padding-top:16px;border-top:1px solid var(--line);font-size:.83rem;color:var(--muted);}
+.stackline b{color:var(--body);font-weight:600;}
+
+/* ---------- filters ---------- */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:34px 0 26px;}
+.chipbtn{border:1px solid var(--line);background:#fff;color:var(--muted);padding:8px 16px;border-radius:999px;font:inherit;font-size:.865rem;font-weight:500;cursor:pointer;transition:.18s ease;min-height:44px;}
+.chipbtn:hover{color:var(--ink);border-color:#cfd8e3;}
+.chipbtn.on{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+/* ---------- work cards ---------- */
+.kicker{display:inline-flex;align-items:center;gap:7px;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.11em;color:var(--accent);background:rgba(14,127,150,.08);padding:4px 10px;border-radius:6px;margin-bottom:12px;}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px;}
+.tag{font-size:.775rem;background:var(--soft);border:1px solid var(--line);color:var(--muted);padding:4px 11px;border-radius:999px;}
+.tldr{background:var(--soft);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;padding:20px 22px;margin-bottom:24px;}
+.tldr dl{margin:0;display:grid;grid-template-columns:112px 1fr;gap:9px 18px;font-size:.92rem;}
+.tldr dt{color:var(--muted);font-weight:600;font-size:.73rem;text-transform:uppercase;letter-spacing:.07em;padding-top:3px;}
+.tldr dd{margin:0;color:var(--ink);}
+.case-snapshot{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:-6px 0 26px;}
+.snapshot-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 18px 16px;box-shadow:0 1px 2px rgba(11,17,32,.03);}
+.snapshot-card h5{margin:0 0 8px!important;color:var(--accent);font-size:.74rem;text-transform:uppercase;letter-spacing:.1em;}
+.snapshot-card p{font-size:.9rem;line-height:1.58;color:var(--body);margin:0;}
+.cs h5{font-size:.79rem;text-transform:uppercase;letter-spacing:.11em;color:var(--accent);margin:24px 0 8px;font-weight:700;}
+.cs h5:first-child{margin-top:0;}
+.cs p{font-size:.965rem;margin-bottom:0;}
+
+/* ---------- focus pillars ---------- */
+#focus{padding:92px 0;}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:38px;}
+.pillar{border:1px solid var(--line);border-radius:var(--r);padding:26px;background:#fff;display:flex;flex-direction:column;transition:.2s;}
+.pillar:hover{border-color:#cfd8e3;box-shadow:var(--shadow);}
+.pillar .n{font-size:.74rem;font-weight:700;letter-spacing:.14em;color:var(--accent);}
+.pillar h3{font-size:1.15rem;margin:10px 0 10px;}
+.pillar p{font-size:.95rem;margin:0 0 1rem;}
+.pillar .pills{margin-top:auto;}
+
+/* ---------- skills ---------- */
+.skill-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:38px;}
+.skill-card{border:1px solid var(--line);border-radius:var(--r);padding:24px;background:#fff;transition:.2s;}
+.skill-card:hover{border-color:#cfd8e3;box-shadow:var(--shadow);}
+.skill-card h3{font-size:.79rem;text-transform:uppercase;letter-spacing:.11em;color:var(--accent);margin-bottom:15px;font-weight:700;}
+.skill-card p{font-size:.95rem;margin:0 0 .6rem;}
+.skill-card p:last-child{margin-bottom:0;}
+.pills{display:flex;flex-wrap:wrap;gap:7px;margin:0;padding:0;list-style:none;}
+.pill{font-size:.845rem;background:var(--soft);border:1px solid var(--line);color:var(--body);padding:5px 12px;border-radius:8px;}
+
+/* ---------- education and recognition ---------- */
+.edu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:34px;}
+.edu{display:flex;gap:20px;align-items:center;border:1px solid var(--line);border-radius:var(--r);padding:26px 26px;background:#fff;}
+.edu-mark{width:56px;height:56px;border-radius:13px;flex:none;display:grid;place-items:center;background:linear-gradient(135deg,var(--ink),#1e2c44);color:#fff;font-weight:600;font-size:.82rem;letter-spacing:.02em;text-align:center;line-height:1.15;}
+.edu-main h3{font-size:1.05rem;margin-bottom:3px;}
+.edu-meta{color:var(--muted);font-size:.9rem;margin:0;}
+.sub-title{font-size:1.25rem;margin:56px 0 0;}
+.award-grid{list-style:none;margin:22px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:12px;}
+.award{display:flex;gap:16px;align-items:baseline;border:1px solid var(--line);border-radius:12px;padding:16px 18px;background:#fff;}
+.award .yr{font-weight:600;color:var(--accent);min-width:3.4rem;font-variant-numeric:tabular-nums;}
+.award p{margin:0;font-size:.93rem;}
+.award p b{display:block;color:var(--ink);font-weight:600;}
+
+/* ---------- contact ---------- */
+.contact{background:var(--dark);color:#c9d3e0;position:relative;overflow:hidden;}
+.contact::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(620px 340px at 20% 10%,rgba(34,211,238,.15),transparent 62%),
+    radial-gradient(520px 300px at 82% 88%,rgba(99,102,241,.14),transparent 62%);
+}
+.contact .wrap{position:relative;z-index:2;text-align:center;}
+.contact .eyebrow{color:var(--accent-2);}
+.contact .eyebrow::before{background:var(--accent-2);}
+.contact h2{color:#fff;font-size:clamp(2rem,5vw,3.2rem);margin-bottom:18px;}
+.contact p.pitch{color:#9fb0c6;max-width:54ch;margin:0 auto 34px;font-size:1.05rem;}
+.contact-row{display:flex;flex-wrap:wrap;gap:11px;justify-content:center;}
+.foot{border-top:1px solid rgba(255,255,255,.08);margin-top:66px;padding-top:26px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.83rem;color:#93a2b6;text-align:left;}
+.foot p{margin:0;}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .62s cubic-bezier(.2,.7,.3,1),transform .62s cubic-bezier(.2,.7,.3,1);}
+.rv.in{opacity:1;transform:none;}
+@media (prefers-reduced-motion:reduce){
+  .rv{opacity:1;transform:none;transition:none;}
+  html{scroll-behavior:auto;}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;}
+}
+
+/* ---------- responsive ---------- */
+@media (max-width:900px){
+  .about-grid{grid-template-columns:1fr;gap:32px;}
+  .about-side{margin-left:0;}
+  .exp-shell{grid-template-columns:1fr;gap:22px;}
+  .exp-tabs{position:static;flex-direction:row;overflow-x:auto;padding-bottom:4px;}
+  .exp-tab{min-width:190px;}
+  .exp-head{display:block;}
+  .exp-date-pill{display:inline-flex;margin:10px 0 0;}
+  .case-snapshot{grid-template-columns:1fr;}
+  .skill-grid,.edu-grid,.award-grid,.pillars{grid-template-columns:1fr;}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@media (max-width:760px){
+  section{padding:76px 0;}
+  .hero{padding:132px 0 84px;}
+  .hero-cta{flex-direction:column;align-items:stretch;gap:10px;}
+  .hero-cta .btn{width:100%;justify-content:center;}
+  .nav-links{position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;padding:10px;gap:2px;display:none;box-shadow:0 16px 40px rgba(11,17,32,.10);}
+  .nav-links.open{display:flex;}
+  .nav-links a{padding:11px 14px;}
+  .nav-cta{text-align:center;margin-top:4px;justify-content:center;}
+  .burger{display:block;}
+  .exp-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;gap:8px;padding-bottom:0;}
+  .exp-tab{min-width:0;}
+  .exp-panel{padding:24px 20px;}
+  .acc-head{padding:20px;gap:14px;}
+  .acc-inner{padding:0 20px 22px;}
+  .acc-links{padding:0 20px 18px;}
+  .tldr dl{grid-template-columns:1fr;gap:2px;}
+  .tldr dt{margin-top:10px;}
+  .tldr dd{margin-bottom:2px;}
+  .edu{padding:20px;}
+}
+
+@media (min-width:901px) and (max-width:1000px){.pillars{grid-template-columns:repeat(2,1fr);}}
+
+@media print{
+  nav,.skip,.filters,.burger,.hero-cta,.contact-row{display:none!important;}
+  .rv{opacity:1!important;transform:none!important;}
+  .acc-body{max-height:none!important;}
+  .exp-panel{display:block!important;box-shadow:none;margin-bottom:12px;break-inside:avoid;}
+  .exp-tabs{display:none;}
+  .exp-shell{display:block;}
+  .hero,.contact{background:#fff;color:#000;}
+  .hero h1,.contact h2,.stat b{color:#000;}
+  .hero-lede,.hero-role,.stat span,.contact p.pitch,.foot{color:#333;}
+  section{padding:32px 0;}
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Rajan Kumar",
+  "jobTitle": "Lead SDET",
+  "worksFor": {"@type": "Organization", "name": "Telus Digital"},
+  "alumniOf": {"@type": "CollegeOrUniversity", "name": "Dronacharya Group of Institutions"},
+  "address": {"@type": "PostalAddress", "addressLocality": "Delhi", "addressCountry": "IN"},
+  "email": "mailto:rajan.sinha91@gmail.com",
+  "knowsAbout": ["Test Automation", "SDET", "Playwright", "Selenium", "Cypress", "CI/CD", "API Testing", "AI-assisted Testing", "Quality Engineering"],
+  "sameAs": [
+    "https://linkedin.com/in/errajankumar",
+    "https://github.com/dvirusway"
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- ================= NAV ================= -->
+<nav id="nav" aria-label="Primary">
+  <div class="nav-in">
+    <a href="#top" class="brand">Rajan<span>.</span></a>
+    <button class="burger" id="burger" type="button" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="navlinks">
+      <a href="#about">About</a>
+      <a href="#focus">Focus</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top" aria-labelledby="hero-h">
+  <div class="wrap">
+    <div class="badge"><span class="dot" aria-hidden="true"></span> Open to AI / SDET / QE architecture Roles · 11+ Years course domain expertise</div>
+    <h1 class="serif" id="hero-h">Rajan <em>Kumar</em></h1>
+    <div class="hero-role">
+      <b>Lead SDET</b><span class="sep" aria-hidden="true"></span>Automation Architect<span class="sep" aria-hidden="true"></span>AI-powered Quality Engineering
+    </div>
+    <p class="hero-lede">
+      I build the engineering systems that make quality continuous: <strong>automation architecture</strong> across UI and API, <strong>pipelines that enforce quality gates</strong>, and <strong>AI-assisted workflows</strong> that lift a whole team's output. After 11+ years on telecom, finance and trade management platforms, my work sits well beyond regression. I decide how quality is designed, measured and shipped.
+    </p>
+    <p class="hero-lede" style="margin-top:-.2rem;">
+      At Telus Digital, that architecture took regression from <strong>5 days to 2</strong> and cut manual effort by <strong>40%</strong>.
+    </p>
+    <div class="hero-cta">
+      <a href="#focus" class="btn btn-light">See what I own</a>
+      <a href="Rajan_Kumar_SDET_Resume.pdf" download class="btn btn-light">Download Resume</a>
+      <a href="https://linkedin.com/in/errajankumar" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn profile ↗</a>
+    </div>
+    <ul class="stats" aria-label="Highlights">
+      <li class="stat"><b>11+ years</b><span>Designing test automation and quality engineering for enterprise platforms</span></li>
+      <li class="stat"><b>3 domains</b><span>Telecom, finance and trade management</span></li>
+      <li class="stat"><b>UI · API · CI/CD</b><span>Owned end to end as a team lead</span></li>
+      <li class="stat"><b>5 → 2 days</b><span>Regression cycle at Telus Digital, with 40% less manual effort</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" aria-labelledby="about-h">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">About me</div>
+      <h2 class="s-title" id="about-h">Quality as an engineering discipline, not a phase.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-body rv">
+        <p>I'm a Lead SDET with <strong>11+ years in quality engineering</strong>. The work I do today is closer to engineering architecture than to testing: I decide how automation is structured across UI and API layers, how pipelines enforce quality before release, and where AI tooling takes work off the team.</p>
+        <p>That scope covers the whole chain: turning business requirements and acceptance criteria into a <strong>test strategy</strong>; designing frameworks in <strong>Java, JavaScript and TypeScript</strong> with Selenium, Playwright, Cypress, Karate and REST Assured; running <strong>CI/CD on Jenkins, GitHub Actions and Bamboo</strong>; and reporting through Allure, ReportPortal and Extent.</p>
+        <p>I also build the team that runs it. I lead automation and QA engineers across concurrent projects, interview and mentor candidates, and use <strong>Ollama, Copilot and Claude</strong> to speed up test authoring, coverage analysis, defect triage and onboarding.</p>
+      </div>
+      <div class="rv about-side">
+        <!-- Add a photo named rajan.jpg (and optionally rajan.webp) next to this file. If it is missing, the image hides itself. -->
+        <picture>
+          <source srcset="rajan.webp" type="image/webp">
+          <img class="portrait" src="rajan.jpg" alt="Portrait of Rajan Kumar" loading="lazy" decoding="async" onerror="this.closest('picture').style.display='none'">
+        </picture>
+        <div class="facts">
+          <dl>
+            <div class="fact"><dt>Focus</dt><dd>Automation architecture, CI/CD quality gates, AI enablement</dd></div>
+            <div class="fact"><dt>Currently</dt><dd>QA Technical Team Lead, Telus Digital</dd></div>
+            <div class="fact"><dt>Domains</dt><dd>Telecom, finance, trade management</dd></div>
+            <div class="fact"><dt>Experience</dt><dd>11+ years</dd></div>
+            <div class="fact"><dt>Based in</dt><dd>Delhi, India</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOCUS ================= -->
+<section id="focus" aria-labelledby="focus-h" style="background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">What I own</div>
+      <h2 class="s-title" id="focus-h">The quality engineering stack, end to end.</h2>
+      <p class="s-sub">Six areas I design, run and lead. Each one connects to the next: architecture feeds the pipeline, the pipeline enforces the gates, and AI and people make the whole system faster.</p>
+    </div>
+    <div class="pillars">
+      <article class="pillar rv">
+        <span class="n">01</span>
+        <h3>Automation architecture</h3>
+        <p>I own the architecture decisions for UI and API automation: tool selection, framework structure and maintainability, so suites stay reliable as products and teams grow.</p>
+        <ul class="pills"><li class="pill">Selenium</li><li class="pill">Playwright</li><li class="pill">Cypress</li><li class="pill">Karate</li><li class="pill">REST Assured</li><li class="pill">TestNG</li></ul>
+      </article>
+      <article class="pillar rv">
+        <span class="n">02</span>
+        <h3>Pipelines and release quality</h3>
+        <p>I design and maintain CI/CD pipelines and build quality gates into them, so defects are caught before they reach later test cycles. At HostBooks this work cut release cycle time by 50%.</p>
+        <ul class="pills"><li class="pill">Jenkins</li><li class="pill">GitHub Actions</li><li class="pill">Bamboo</li><li class="pill">Docker</li></ul>
+      </article>
+      <article class="pillar rv">
+        <span class="n">03</span>
+        <h3>AI enablement</h3>
+        <p>I introduced Ollama, Copilot and Claude into daily quality engineering work for test authoring, coverage analysis and defect triage, and I work with Fuel iX and MCP. The goal is a team that produces more and onboards faster.</p>
+        <ul class="pills"><li class="pill">Ollama</li><li class="pill">Copilot</li><li class="pill">Claude</li><li class="pill">Fuel iX</li><li class="pill">MCP</li></ul>
+      </article>
+      <article class="pillar rv">
+        <span class="n">04</span>
+        <h3>Quality strategy and governance</h3>
+        <p>I work with product, engineering and business stakeholders to define acceptance criteria and quality gates, and to turn requirements into a test strategy that stays maintainable. Release confidence comes from agreed criteria.</p>
+        <ul class="pills"><li class="pill">Test strategy</li><li class="pill">Acceptance criteria</li><li class="pill">Quality gates</li></ul>
+      </article>
+      <article class="pillar rv">
+        <span class="n">05</span>
+        <h3>Beyond functional testing</h3>
+        <p>I have led quality engineering across functional, compatibility, performance and security testing, and received a Spot Award at Clarivate for identifying and fixing major security issues.</p>
+        <ul class="pills"><li class="pill">Performance</li><li class="pill">Security</li><li class="pill">Compatibility</li><li class="pill">JMeter</li></ul>
+      </article>
+      <article class="pillar rv">
+        <span class="n">06</span>
+        <h3>Team and capability building</h3>
+        <p>I lead automation and QA engineers across concurrent projects, mentor candidates on technical interview panels, and use AI-assisted practices to bring new engineers up to speed sooner.</p>
+        <ul class="pills"><li class="pill">Team leadership</li><li class="pill">Mentoring</li><li class="pill">Interview panels</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WORK ================= -->
+<section id="work" aria-labelledby="work-h">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Work</div>
+      <h2 class="s-title" id="work-h">Selected work and results</h2>
+      <p class="s-sub">Start with the automation architecture at Telus Digital. The other cards cover AI enablement, pipelines and quality gates, non-functional quality and team leadership.</p>
+    </div>
+
+    <div class="filters rv" role="group" aria-label="Filter work">
+      <button class="chipbtn on" type="button" aria-pressed="true" data-f="all">All</button>
+      <button class="chipbtn" type="button" aria-pressed="false" data-f="architecture">Architecture</button>
+      <button class="chipbtn" type="button" aria-pressed="false" data-f="ai">AI enablement</button>
+      <button class="chipbtn" type="button" aria-pressed="false" data-f="cicd">CI/CD</button>
+      <button class="chipbtn" type="button" aria-pressed="false" data-f="nonfunctional">Non-functional</button>
+      <button class="chipbtn" type="button" aria-pressed="false" data-f="leadership">Leadership</button>
+    </div>
+
+    <div class="acc rv open" data-type="architecture">
+      <button class="acc-head" type="button" aria-expanded="true" aria-controls="case-arch-body">
+        <div class="acc-main">
+          <div class="kicker">Automation architecture · Telus Digital</div>
+          <div class="acc-top"><h3 class="acc-title">One automation architecture across UI and API, for three domains</h3></div>
+          <p class="acc-sum">I own the architecture and framework design behind automation for telecom, trade management and finance projects. Result: <b>regression from 5 days to 2</b> and <b>manual effort down 40%</b>.</p>
+          <div class="tags"><span class="tag">Selenium</span><span class="tag">Cypress</span><span class="tag">Playwright</span><span class="tag">UI + API</span></div>
+        </div>
+        <span class="chev"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+      </button>
+      <div class="acc-body" id="case-arch-body">
+        <div class="acc-inner cs">
+          <div class="tldr"><dl>
+            <dt>Scope</dt><dd>Telecom, trade management and finance, with several projects running concurrently.</dd>
+            <dt>My role</dt><dd>Automation architecture and tooling decisions, framework design, and technical leadership of the engineers building on it.</dd>
+            <dt>Delivery</dt><dd>Scalable frameworks in Selenium, Cypress and Playwright covering UI and API layers.</dd>
+            <dt>Outcome</dt><dd>Regression time from 5 days to 2. Manual effort down 40%.</dd>
+          </dl></div>
+          <div class="case-snapshot">
+            <div class="snapshot-card"><h5>Context</h5><p>Several concurrent projects, heavy manual effort and a five-day regression cycle.</p></div>
+            <div class="snapshot-card"><h5>Decision</h5><p>Build scalable, maintainable frameworks that span UI and API layers.</p></div>
+            <div class="snapshot-card"><h5>My contribution</h5><p>I lead the architecture decisions and the engineers who build and run the suites.</p></div>
+          </div>
+          <h5>Architecture and ownership</h5>
+          <p>I own quality engineering end to end across UI, API and CI/CD. That includes which framework fits which layer, how suites are structured for maintainability, and how the team contributes to them across projects.</p>
+          <h5>Governance and outcome</h5>
+          <p>With product, engineering and business stakeholders I define quality gates and acceptance criteria. The outcome is a shorter regression cycle, less manual effort, stronger release confidence and fewer production defects.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="acc rv" data-type="ai">
+      <button class="acc-head" type="button" aria-expanded="false" aria-controls="case-ai-body">
+        <div class="acc-main">
+          <div class="kicker">AI enablement · Telus Digital</div>
+          <div class="acc-top"><h3 class="acc-title">AI enablement for the quality engineering team</h3></div>
+          <p class="acc-sum">Introduced <b>Ollama, Copilot and Claude</b> into daily work to speed up test authoring, coverage analysis and defect triage, and to shorten onboarding for new engineers.</p>
+          <div class="tags"><span class="tag">Ollama</span><span class="tag">GitHub Copilot</span><span class="tag">Claude</span><span class="tag">Fuel iX</span><span class="tag">MCP</span></div>
+        </div>
+        <span class="chev"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+      </button>
+      <div class="acc-body" id="case-ai-body">
+        <div class="acc-inner cs">
+          <h5>What I introduced</h5>
+          <p>AI tooling in everyday quality engineering: test-case authoring, coverage analysis and defect triage. I also work with Fuel iX and the Model Context Protocol (MCP) for AI-assisted testing.</p>
+          <h5>Why it matters</h5>
+          <p>Test cases get written faster and new engineers become productive sooner. The practice belongs to the team's workflow rather than to one person's experiments, which is what makes the gain repeatable.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="acc rv" data-type="cicd">
+      <button class="acc-head" type="button" aria-expanded="false" aria-controls="case-cicd-body">
+        <div class="acc-main">
+          <div class="kicker">Pipelines · HostBooks and Clarivate</div>
+          <div class="acc-top"><h3 class="acc-title">CI/CD pipelines with quality gates built in</h3></div>
+          <p class="acc-sum">Cut <b>release cycle time by 50%</b> with Jenkins and AWS pipelines at HostBooks, and integrated API-automation quality gates into CI/CD at Clarivate.</p>
+          <div class="tags"><span class="tag">Jenkins</span><span class="tag">AWS</span><span class="tag">REST Assured</span><span class="tag">Karate</span><span class="tag">GitHub Actions</span><span class="tag">Bamboo</span></div>
+        </div>
+        <span class="chev"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+      </button>
+      <div class="acc-body" id="case-cicd-body">
+        <div class="acc-inner cs">
+          <h5>HostBooks</h5>
+          <p>Designed and maintained CI/CD pipelines on Jenkins and AWS, reducing release cycle time by 50% across HBTAX, Accounting, CRM and DataMigrator.</p>
+          <h5>Clarivate</h5>
+          <p>Built end-to-end API automation and integrated quality gates into CI/CD pipelines, so fewer release-blocking defects reached later test cycles.</p>
+          <h5>Today</h5>
+          <p>At Telus Digital I own quality engineering across UI, API and CI/CD, with pipelines on Jenkins, GitHub Actions and Bamboo.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="acc rv" data-type="nonfunctional">
+      <button class="acc-head" type="button" aria-expanded="false" aria-controls="case-nfr-body">
+        <div class="acc-main">
+          <div class="kicker">Beyond functional testing · HostBooks and Clarivate</div>
+          <div class="acc-top"><h3 class="acc-title">Performance, security and compatibility, not only regression</h3></div>
+          <p class="acc-sum">Led quality engineering across <b>functional, compatibility, performance and security</b> testing, and earned a <b>Spot Award (2021)</b> for identifying and fixing major security issues.</p>
+          <div class="tags"><span class="tag">Performance</span><span class="tag">Security</span><span class="tag">Compatibility</span><span class="tag">JMeter</span></div>
+        </div>
+        <span class="chev"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+      </button>
+      <div class="acc-body" id="case-nfr-body">
+        <div class="acc-inner cs">
+          <h5>Scope</h5>
+          <p>At HostBooks I led end-to-end quality engineering across functional, compatibility, performance and security testing, and provided technical leadership and test planning from strategy through execution.</p>
+          <h5>Security recognition</h5>
+          <p>At Clarivate I received a Spot Award in 2021 for identifying and fixing major security issues, and an Extra Mile Award in 2020 for performance and contribution.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="acc rv" data-type="leadership">
+      <button class="acc-head" type="button" aria-expanded="false" aria-controls="case-lead-body">
+        <div class="acc-main">
+          <div class="kicker">Leadership · Telus Digital and beyond</div>
+          <div class="acc-top"><h3 class="acc-title">Leading QE teams and raising the bar</h3></div>
+          <p class="acc-sum">Lead automation and QA engineers across concurrent projects, set quality gates with stakeholders, and interview and mentor candidates. <b>Kudos Award 2024 and 2025.</b></p>
+          <div class="tags"><span class="tag">Team leadership</span><span class="tag">Mentoring</span><span class="tag">Test strategy</span><span class="tag">Stakeholders</span></div>
+        </div>
+        <span class="chev"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+      </button>
+      <div class="acc-body" id="case-lead-body">
+        <div class="acc-inner cs">
+          <h5>Team leadership</h5>
+          <p>I lead a team of automation and QA engineers, own the automation architecture decisions, and translate business requirements into a scalable, maintainable test strategy for cross-functional stakeholders.</p>
+          <h5>Mentoring and recognition</h5>
+          <p>I sit on the technical interview panel for QA engineer roles and mentor candidates. Telus Digital recognized my ownership and delivery impact with the Kudos Award in 2024 and 2025.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--
+      To add a personal project later (for example a sample Playwright or API framework), copy a card above,
+      set data-type (and add a matching filter button), and add a link row right after the acc-head button:
+      <div class="acc-links"><a class="acc-link" href="https://github.com/dvirusway/your-repo" target="_blank" rel="noopener">Source ↗</a></div>
+    -->
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" aria-labelledby="exp-h" style="background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Experience</div>
+      <h2 class="s-title" id="exp-h">Experience behind the work</h2>
+    </div>
+
+    <div class="exp-shell rv">
+      <div class="exp-tabs" role="tablist" aria-label="Experience roles">
+        <button class="exp-tab active" id="tab-telus" type="button" role="tab" aria-selected="true" aria-controls="panel-telus" tabindex="0" data-exp="telus"><b>Telus Digital</b><span>QA Lead · 2021–now</span></button>
+        <button class="exp-tab" id="tab-clarivate" type="button" role="tab" aria-selected="false" aria-controls="panel-clarivate" tabindex="-1" data-exp="clarivate"><b>Clarivate</b><span>Product QA · 2019–21</span></button>
+        <button class="exp-tab" id="tab-hostbooks" type="button" role="tab" aria-selected="false" aria-controls="panel-hostbooks" tabindex="-1" data-exp="hostbooks"><b>HostBooks</b><span>Automation · 2018–19</span></button>
+        <button class="exp-tab" id="tab-xorlabs" type="button" role="tab" aria-selected="false" aria-controls="panel-xorlabs" tabindex="-1" data-exp="xorlabs"><b>Xorlabs</b><span>Engineer · 2015–18</span></button>
+        <button class="exp-tab" id="tab-early" type="button" role="tab" aria-selected="false" aria-controls="panel-early" tabindex="-1" data-exp="early"><b>Internships</b><span>IMRB · IISc</span></button>
+      </div>
+
+      <div class="exp-panels">
+        <article class="exp-panel active" id="panel-telus" data-exp-panel="telus" role="tabpanel" aria-labelledby="tab-telus" tabindex="0">
+          <div class="exp-head">
+            <h3>QA Technical Team Lead <span>@ Telus Digital</span></h3>
+            <div class="exp-date-pill">Jul 2021 – Present · Noida</div>
+          </div>
+          <p class="exp-summary">Telecom, trade management and finance platforms. I own automation architecture, quality pipelines and AI enablement for the quality engineering team.</p>
+          <ul class="exp-metrics" aria-label="Key results"><li class="exp-metric">Regression 5 days → 2</li><li class="exp-metric">40% less manual effort</li><li class="exp-metric">Kudos Award 2024 and 2025</li></ul>
+          <ul class="points">
+            <li>Own the <b>automation architecture</b> across telecom, trade management and finance: framework design and tooling decisions with <b>Selenium, Cypress and Playwright</b> across UI and API layers. Result: manual effort down <b>40%</b> and regression time from <b>5 days to 2</b>.</li>
+            <li>Own quality engineering end to end across UI, API and CI/CD, leading a team of automation and QA engineers across multiple concurrent projects.</li>
+            <li>Drive <b>AI enablement</b> for the team: introduced Ollama, Copilot and Claude into daily test authoring, speeding up test-case creation and the onboarding of new engineers.</li>
+            <li>Define quality gates and acceptance criteria with product, engineering and business stakeholders, strengthening release confidence and reducing production defects.</li>
+          </ul>
+          <a class="exp-link" href="#work">View related work ↑</a>
+          <div class="stackline"><b>Tools:</b> Selenium · Cypress · Playwright · Ollama · GitHub Copilot · Claude</div>
+        </article>
+
+        <article class="exp-panel" id="panel-clarivate" data-exp-panel="clarivate" role="tabpanel" aria-labelledby="tab-clarivate" tabindex="0" hidden>
+          <div class="exp-head">
+            <h3>Product QA Engineer <span>@ CPA Global (Clarivate)</span></h3>
+            <div class="exp-date-pill">Aug 2019 – Jul 2021 · Noida</div>
+          </div>
+          <p class="exp-summary">IP Portfolio, Foundation IP and Search AI. Three concurrent product lines.</p>
+          <ul class="exp-metrics" aria-label="Recognition"><li class="exp-metric">Spot Award 2021</li><li class="exp-metric">Extra Mile Award 2020</li></ul>
+          <ul class="points">
+            <li>Designed and extended automation frameworks with <b>Selenium, Cucumber, TestNG, REST Assured and Karate</b>, widening automated coverage across UI and API layers on three concurrent product lines.</li>
+            <li>Built end-to-end API automation and integrated quality gates into CI/CD pipelines, so fewer release-blocking defects reached later test cycles.</li>
+            <li>Worked with customers and cross-functional teams to turn business requirements into testable solutions. Recognized with a Spot Award (2021) for identifying and fixing major security issues, and an Extra Mile Award (2020).</li>
+          </ul>
+          <div class="stackline"><b>Tools:</b> Selenium · Cucumber · TestNG · REST Assured · Karate</div>
+        </article>
+
+        <article class="exp-panel" id="panel-hostbooks" data-exp-panel="hostbooks" role="tabpanel" aria-labelledby="tab-hostbooks" tabindex="0" hidden>
+          <div class="exp-head">
+            <h3>Automation Test Engineer <span>@ HostBooks Limited</span></h3>
+            <div class="exp-date-pill">Apr 2018 – Aug 2019 · Gurugram</div>
+          </div>
+          <p class="exp-summary">HBTAX, Accounting, CRM and DataMigrator.</p>
+          <ul class="exp-metrics" aria-label="Key results"><li class="exp-metric">50% shorter release cycle</li></ul>
+          <ul class="points">
+            <li>Led end-to-end quality engineering across functional, compatibility, performance and security testing for HBTAX, Accounting, CRM and DataMigrator.</li>
+            <li>Designed and maintained CI/CD pipelines on <b>Jenkins and AWS</b>, cutting release cycle time by <b>50%</b>.</li>
+            <li>Provided technical leadership and test planning, from strategy through execution, for cross-functional teams.</li>
+          </ul>
+          <div class="stackline"><b>Tools:</b> Jenkins · AWS</div>
+        </article>
+
+        <article class="exp-panel" id="panel-xorlabs" data-exp-panel="xorlabs" role="tabpanel" aria-labelledby="tab-xorlabs" tabindex="0" hidden>
+          <div class="exp-head">
+            <h3>Software Engineer <span>@ Xorlabs LLC</span></h3>
+            <div class="exp-date-pill">Jun 2015 – Apr 2018 · Greater Noida</div>
+          </div>
+          <p class="exp-summary">Idera Uptime, Sahi Framework, CRM and SQLCM.</p>
+          <ul class="points">
+            <li>Designed scalable test frameworks and developed test suites supporting quality assurance across multiple products.</li>
+            <li>Worked directly with customers and stakeholders to gather requirements and deliver solutions.</li>
+          </ul>
+        </article>
+
+        <article class="exp-panel" id="panel-early" data-exp-panel="early" role="tabpanel" aria-labelledby="tab-early" tabindex="0" hidden>
+          <div class="exp-head">
+            <h3>Internships <span>@ IMRB · IISc</span></h3>
+            <div class="exp-date-pill">2013 – 2014</div>
+          </div>
+          <h4>Application Programmer Intern, IMRB and Microsoft</h4>
+          <p class="exp-sub">Jun 2014 – Aug 2014 · Gurugram · Best Project Award, 2015</p>
+          <ul class="points">
+            <li>Developed Microsoft Office 365-based applications for an IT-enablement program supporting MSMEs, working directly with small-business owners to understand operational pain points.</li>
+          </ul>
+          <h4>Research Scholar Intern, Indian Institute of Science (IISc)</h4>
+          <p class="exp-sub">Jun 2013 – Aug 2013 · Bengaluru</p>
+          <ul class="points">
+            <li>Selected as one of 65 undergraduates nationwide for a live-project research program, working on Big Data analysis, AI and machine learning.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" aria-labelledby="skills-h">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Skills &amp; expertise</div>
+      <h2 class="s-title" id="skills-h">What I work with</h2>
+    </div>
+    <div class="skill-grid">
+      <div class="skill-card rv">
+        <h3>Automation &amp; testing</h3>
+        <ul class="pills">
+          <li class="pill">Selenium</li><li class="pill">Playwright</li><li class="pill">Cypress</li>
+          <li class="pill">Cucumber / BDD</li><li class="pill">Karate</li><li class="pill">REST Assured</li><li class="pill">TestNG</li>
+        </ul>
+      </div>
+      <div class="skill-card rv">
+        <h3>Languages</h3>
+        <ul class="pills">
+          <li class="pill">Java</li><li class="pill">JavaScript</li><li class="pill">TypeScript</li><li class="pill">SQL</li>
+          <li class="pill">HTML / CSS</li><li class="pill">YAML</li><li class="pill">Batch scripting</li>
+        </ul>
+      </div>
+      <div class="skill-card rv">
+        <h3>AI-assisted testing</h3>
+        <ul class="pills">
+          <li class="pill">Ollama</li><li class="pill">GitHub Copilot</li><li class="pill">ChatGPT</li>
+          <li class="pill">Claude</li><li class="pill">Fuel iX</li><li class="pill">Model Context Protocol (MCP)</li>
+        </ul>
+      </div>
+      <div class="skill-card rv">
+        <h3>DevOps &amp; cloud</h3>
+        <ul class="pills">
+          <li class="pill">Jenkins</li><li class="pill">GitHub Actions</li><li class="pill">Bamboo</li><li class="pill">Docker</li>
+          <li class="pill">GitLab</li><li class="pill">Bitbucket</li><li class="pill">TFS</li><li class="pill">SVN</li><li class="pill">GCP</li>
+        </ul>
+      </div>
+      <div class="skill-card rv">
+        <h3>Reporting &amp; tooling</h3>
+        <ul class="pills">
+          <li class="pill">JIRA</li><li class="pill">TestRail</li><li class="pill">JMeter</li><li class="pill">Postman</li><li class="pill">SoapUI</li>
+          <li class="pill">Extent Reports</li><li class="pill">ReportPortal</li><li class="pill">Allure</li><li class="pill">Maven</li>
+        </ul>
+      </div>
+      <div class="skill-card rv">
+        <h3>Quality engineering</h3>
+        <ul class="pills">
+          <li class="pill">Automation architecture</li><li class="pill">Test strategy</li><li class="pill">Quality gates</li>
+          <li class="pill">Acceptance criteria</li><li class="pill">Coverage analysis</li><li class="pill">Defect triage</li>
+          <li class="pill">Team leadership</li><li class="pill">Stakeholder management</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education" aria-labelledby="edu-h" style="background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Education &amp; recognition</div>
+      <h2 class="s-title" id="edu-h">Academics and awards</h2>
+    </div>
+
+    <div class="edu-grid">
+      <div class="edu rv">
+        <div class="edu-mark" aria-hidden="true">B.<br>Tech</div>
+        <div class="edu-main">
+          <h3>B.Tech, Information Technology</h3>
+          <p class="edu-meta">Dronacharya Group of Institutions, Greater Noida · 2011 – 2015</p>
+        </div>
+      </div>
+      <div class="edu rv">
+        <div class="edu-mark" aria-hidden="true">PG<br>Dip</div>
+        <div class="edu-main">
+          <h3>Post-Graduate Diploma, IT Management</h3>
+          <p class="edu-meta">Symbiosis Centre for Distance Learning, Pune · 2016 – 2018</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="sub-title rv">Awards</h3>
+    <ul class="award-grid">
+      <li class="award rv"><span class="yr">2024, 2025</span><p><b>Kudos Award</b>Telus Digital, for exceptional ownership and delivery impact.</p></li>
+      <li class="award rv"><span class="yr">2021</span><p><b>Spot Award</b>Clarivate, for identifying and fixing major security issues.</p></li>
+      <li class="award rv"><span class="yr">2020</span><p><b>Extra Mile Award</b>Clarivate, for excellent performance and contribution.</p></li>
+      <li class="award rv"><span class="yr">2015</span><p><b>Best Project Award</b>IMRB and Microsoft internship program.</p></li>
+    </ul>
+
+    <h3 class="sub-title rv">Beyond the day job</h3>
+    <div class="skill-grid" style="margin-top:22px;">
+      <div class="skill-card rv">
+        <h3>Community and mentoring</h3>
+        <p><b>Technical interview panel:</b> I interview and mentor candidates for different QA engineer roles.</p>
+        <p><b>The Arpan Campaign:</b> volunteer supporting education and nutrition for underprivileged children.</p>
+      </div>
+      <div class="skill-card rv">
+        <h3>Languages</h3>
+        <ul class="pills">
+          <li class="pill">English (fluent)</li><li class="pill">Hindi (native)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact" aria-labelledby="contact-h">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Get in touch</div>
+      <h2 class="serif" id="contact-h">Let's talk quality engineering.</h2>
+      <p class="pitch">I'm exploring Lead SDET and quality engineering architecture roles in the UAE and Europe. If your team needs someone who can design the automation architecture, build the pipeline and quality gates, bring AI into the workflow and lead the engineers behind it, let's connect.</p>
+      <div class="contact-row">
+        <a href="mailto:rajan.sinha91@gmail.com" class="btn btn-light">rajan.sinha91@gmail.com</a>
+        <a href="https://linkedin.com/in/errajankumar" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+        <a href="https://github.com/dvirusway" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+        <a href="Rajan_Kumar_SDET_Resume.pdf" download class="btn btn-ghost">Download Resume</a>
+      </div>
+    </div>
+    <footer class="foot">
+      <p>© 2026 Rajan Kumar</p>
+      <p>Delhi, India</p>
+    </footer>
+  </div>
+</section>
+
+</main>
+
+<script>
+(function(){
+  /* --- accordions --- */
+  document.querySelectorAll('.acc-head').forEach(function(head){
+    head.addEventListener('click', function(){
+      var acc  = head.closest('.acc');
+      var body = acc.querySelector('.acc-body');
+      var open = acc.classList.contains('open');
+      if(open){
+        body.style.maxHeight = '0px';
+        acc.classList.remove('open');
+        head.setAttribute('aria-expanded','false');
+      }else{
+        acc.classList.add('open');
+        head.setAttribute('aria-expanded','true');
+        body.style.maxHeight = body.scrollHeight + 'px';
+      }
+    });
+  });
+  function fitOpen(){
+    document.querySelectorAll('.acc.open .acc-body').forEach(function(b){
+      b.style.maxHeight = b.scrollHeight + 'px';
+    });
+  }
+  fitOpen();
+  window.addEventListener('resize', fitOpen);
+  window.addEventListener('load', fitOpen);
+
+  /* --- experience tabs --- */
+  var expTabs = document.querySelectorAll('.exp-tab');
+  var expPanels = document.querySelectorAll('.exp-panel');
+  function activateExpTab(tab, moveFocus){
+    var target = tab.dataset.exp;
+    expTabs.forEach(function(t){
+      var active = t === tab;
+      t.classList.toggle('active', active);
+      t.setAttribute('aria-selected', active ? 'true' : 'false');
+      t.setAttribute('tabindex', active ? '0' : '-1');
+    });
+    expPanels.forEach(function(panel){
+      var active = panel.dataset.expPanel === target;
+      panel.classList.toggle('active', active);
+      panel.hidden = !active;
+    });
+    if(moveFocus) tab.focus();
+  }
+  expTabs.forEach(function(tab){
+    tab.addEventListener('click', function(){ activateExpTab(tab, false); });
+    tab.addEventListener('keydown', function(e){
+      var keys = ['ArrowRight','ArrowDown','ArrowLeft','ArrowUp','Home','End'];
+      if(keys.indexOf(e.key) === -1) return;
+      e.preventDefault();
+      var tabs = [].slice.call(expTabs);
+      var index = tabs.indexOf(tab);
+      if(e.key === 'Home') index = 0;
+      else if(e.key === 'End') index = tabs.length - 1;
+      else if(e.key === 'ArrowRight' || e.key === 'ArrowDown') index = (index + 1) % tabs.length;
+      else index = (index - 1 + tabs.length) % tabs.length;
+      activateExpTab(tabs[index], true);
+    });
+  });
+
+  /* --- work filters --- */
+  var btns = document.querySelectorAll('.chipbtn');
+  btns.forEach(function(b){
+    b.addEventListener('click', function(){
+      btns.forEach(function(x){ x.classList.remove('on'); x.setAttribute('aria-pressed','false'); });
+      b.classList.add('on');
+      b.setAttribute('aria-pressed','true');
+      var f = b.dataset.f;
+      document.querySelectorAll('#work .acc').forEach(function(card){
+        card.hidden = !(f === 'all' || card.dataset.type === f);
+      });
+    });
+  });
+
+  /* --- nav state --- */
+  var nav = document.getElementById('nav');
+  var links = document.querySelectorAll('.nav-links a[href^="#"]');
+  var secs = [].slice.call(document.querySelectorAll('main > section[id]'));
+  function onScroll(){
+    nav.classList.toggle('scrolled', window.scrollY > 12);
+    var pos = window.scrollY + 120, cur = '';
+    secs.forEach(function(s){ if(s.offsetTop <= pos) cur = s.id; });
+    links.forEach(function(l){
+      l.classList.toggle('active', l.getAttribute('href') === '#' + cur && !l.classList.contains('nav-cta'));
+    });
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  /* --- mobile menu --- */
+  var burger = document.getElementById('burger');
+  var navlinks = document.getElementById('navlinks');
+  function setMenu(open){
+    navlinks.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.setAttribute('aria-label', open ? 'Close menu' : 'Menu');
+  }
+  burger.addEventListener('click', function(){ setMenu(!navlinks.classList.contains('open')); });
+  navlinks.addEventListener('click', function(e){ if(e.target.tagName === 'A') setMenu(false); });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && navlinks.classList.contains('open')){ setMenu(false); burger.focus(); }
+  });
+
+  /* --- reveal on scroll --- */
+  var rv = document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en, i){
+        if(en.isIntersecting){
+          setTimeout(function(){ en.target.classList.add('in'); }, Math.min(i*55, 220));
+          io.unobserve(en.target);
+        }
+      });
+    }, {threshold:0.08, rootMargin:'0px 0px -40px 0px'});
+    rv.forEach(function(el){ io.observe(el); });
+  }else{
+    rv.forEach(function(el){ el.classList.add('in'); });
+  }
+})();
+</script>
+</body>
+</html>
