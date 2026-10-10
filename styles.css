@@ -38,7 +38,7 @@ p{margin:0 0 1.05rem;}
 .skip:focus{top:12px;}
 
 /* ---------- section scaffolding ---------- */
-section{padding:104px 0;position:relative;}
+section{padding:80px 0;position:relative;}
 #experience,#work{padding:92px 0;}
 .eyebrow{
   display:inline-flex;align-items:center;gap:9px;
@@ -132,7 +132,7 @@ nav.scrolled{border-bottom-color:var(--line);box-shadow:0 1px 20px rgba(11,17,32
   border-radius:var(--r);border:1px solid var(--line);
   box-shadow:var(--shadow);display:block;margin:0 auto 12px;background:var(--soft);
 }
-.facts{background:var(--soft);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;}
+.facts{background:var(--soft);border:1px solid var(--line);border-radius:var(--r);padding:14px 26px;}
 .facts dl{margin:0;}
 .fact{display:flex;justify-content:space-between;gap:16px;padding:9px 0;border-bottom:1px solid var(--line);font-size:.88rem;}
 .fact:last-child{border-bottom:none;padding-bottom:0;}
@@ -181,7 +181,7 @@ nav.scrolled{border-bottom-color:var(--line);box-shadow:0 1px 20px rgba(11,17,32
 .exp-metrics{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px;padding:0;list-style:none;}
 .exp-metric{font-size:.8rem;font-weight:600;color:var(--accent);background:rgba(14,127,150,.08);border:1px solid rgba(14,127,150,.14);border-radius:999px;padding:6px 11px;}
 .exp-panel ul.points{margin:0;padding-left:18px;}
-.exp-panel li{margin-bottom:11px;font-size:.965rem;}
+.exp-panel li{margin-bottom:11px;}
 .exp-panel li:last-child{margin-bottom:0;}
 .exp-panel li::marker{color:var(--accent);}
 .exp-panel h4{font-size:1.05rem;margin:22px 0 2px;}
@@ -214,7 +214,7 @@ nav.scrolled{border-bottom-color:var(--line);box-shadow:0 1px 20px rgba(11,17,32
 .cs p{font-size:.965rem;margin-bottom:0;}
 
 /* ---------- focus pillars ---------- */
-#focus{padding:92px 0;}
+#focus{padding:80px 0;}
 .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:38px;}
 .pillar{border:1px solid var(--line);border-radius:var(--r);padding:26px;background:#fff;display:flex;flex-direction:column;transition:.2s;}
 .pillar:hover{border-color:#cfd8e3;box-shadow:var(--shadow);}
