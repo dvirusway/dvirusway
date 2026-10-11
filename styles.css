@@ -38,8 +38,8 @@ p{margin:0 0 1.05rem;}
 .skip:focus{top:12px;}
 
 /* ---------- section scaffolding ---------- */
-section{padding:80px 0;position:relative;}
-#experience,#work{padding:92px 0;}
+section{padding:70px 0;position:relative;}
+#experience,#work{padding:70px 0;}
 .eyebrow{
   display:inline-flex;align-items:center;gap:9px;
   font-size:.74rem;font-weight:600;text-transform:uppercase;letter-spacing:.16em;
@@ -74,7 +74,7 @@ nav.scrolled{border-bottom-color:var(--line);box-shadow:0 1px 20px rgba(11,17,32
 .burger span{display:block;width:17px;height:1.6px;background:var(--ink);margin:3.5px 0;border-radius:2px;}
 
 /* ---------- hero ---------- */
-.hero{background:var(--dark);color:#c9d3e0;padding:172px 0 96px;overflow:hidden;position:relative;}
+.hero{background:var(--dark);color:#c9d3e0;padding:172px 0 70px;overflow:hidden;position:relative;}
 .hero::before{
   content:"";position:absolute;inset:0;pointer-events:none;
   background:
@@ -214,7 +214,7 @@ nav.scrolled{border-bottom-color:var(--line);box-shadow:0 1px 20px rgba(11,17,32
 .cs p{font-size:.965rem;margin-bottom:0;}
 
 /* ---------- focus pillars ---------- */
-#focus{padding:80px 0;}
+#focus{padding:70px 0;}
 .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:38px;}
 .pillar{border:1px solid var(--line);border-radius:var(--r);padding:26px;background:#fff;display:flex;flex-direction:column;transition:.2s;}
 .pillar:hover{border-color:#cfd8e3;box-shadow:var(--shadow);}
