@@ -28,9 +28,7 @@ I design quality systems and software solutions that scale: automation architect
 ### Currently building
 
 - **Developer tooling and quality architecture.** Reusable libraries and automation utilities across UI, API and integration layers.
-- **Local AI agents.** Private, MCP-connected agents on Ollama and Continue.dev that help with code generation and code analysis.
-- **Delivery pipelines.** Containerised CI/CD with automated release gates, plus dashboards that make release risk visible.
-
+- **Local AI agents.** Private MCP agents on Ollama and Continue.dev that help with code generation and code analysis.
 
 ### Connect
 
