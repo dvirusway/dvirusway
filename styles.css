@@ -103,7 +103,7 @@ nav.scrolled{border-bottom-color:var(--line);box-shadow:0 1px 20px rgba(11,17,32
 .hero-role{font-size:clamp(1.02rem,2vw,1.24rem);color:#a6b6cb;font-weight:500;margin-bottom:26px;display:flex;flex-wrap:wrap;align-items:center;gap:10px;}
 .hero-role b{color:#e8eef6;font-weight:600;}
 .sep{width:4px;height:4px;border-radius:50%;background:#4b5b72;}
-.hero-lede{font-size:1.09rem;color:#a2b1c5;max-width:62ch;line-height:1.72;}
+.hero-lede{font-size:1.09rem;color:#a2b1c5;max-width:70ch;line-height:1.72;}
 .hero-lede strong{color:#f0f5fa;font-weight:600;}
 .hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:11px;margin-top:36px;}
 .btn{
