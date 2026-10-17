@@ -1,5 +1,4 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=91E0FF&height=130&section=header" width="100%"/>
-
 ### Hi, I'm Rajan
 I design quality systems and software solutions that scale: automation architecture across UI, API and backend layers, release gates that protect delivery and AI-assisted engineering workflows that help teams move faster without losing trust.
 
