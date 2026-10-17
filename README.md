@@ -34,8 +34,8 @@ I design quality systems and software solutions that scale: automation architect
 
 ### Connect
 
-<a href="https://linkedin.com/in/errajankumar"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://dvirusway.github.io/rajan-portfolio/"><img src="https://img.shields.io/badge/Website-2A2F3A?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
-<a href="mailto:rajan.sinha91@gmail.com"><img src="https://img.shields.io/badge/Email-161B22?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://linkedin.com/in/errajankumar" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://dvirusway.github.io/rajan-portfolio/" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Website-2A2F3A?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+<a href="mailto:rajan.sinha91@gmail.com" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Email-161B22?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=91E0FF&height=110&section=footer" width="100%"/>
