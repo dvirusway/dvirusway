@@ -17,22 +17,19 @@ I design quality systems and software solutions that scale: automation architect
 ![JMeter](https://img.shields.io/badge/JMeter-D22128?style=for-the-badge&logo=apachejmeter&logoColor=white)
 ![Gatling](https://img.shields.io/badge/Gatling-3B82F6?style=for-the-badge&logo=playwright&logoColor=white)
 ![Allure](https://img.shields.io/badge/Allure-FF6F61?style=for-the-badge)
-![ReportPortal](https://img.shields.io/badge/ReportPortal-3F51B5?style=for-the-badge)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Bamboo](https://img.shields.io/badge/Bamboo-0052CC?style=for-the-badge&logo=bamboo&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Fuel iX](https://img.shields.io/badge/Fuel_iX-00A3E0?style=for-the-badge)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![Continue.dev](https://img.shields.io/badge/Continue.dev-3B82F6?style=for-the-badge)
 ![MCP](https://img.shields.io/badge/MCP-6366F1?style=for-the-badge)
 
 ### Currently building
 
 - **Developer tooling and quality architecture.** Reusable libraries and automation utilities across UI, API and integration layers.
-- **Local AI agents.** Private, MCP-connected agents on Ollama and Continue.dev that help with code generation, review and report analysis.
-- **Delivery pipelines and analytics.** Containerised CI/CD with automated release gates, plus dashboards that make release risk visible.
+- **Local AI agents.** Private, MCP-connected agents on Ollama and Continue.dev that help with code generation and code analysis.
+- **Delivery pipelines.** Containerised CI/CD with automated release gates, plus dashboards that make release risk visible.
 
 
 ### Connect
