@@ -1,10 +1,10 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=91E0FF&height=130&section=header" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Carlito&weight=700&size=28&duration=4000&pause=700&color=91E0FF&width=560&lines=Hi%2C+I'm+Rajan+;·+SDET+·+QE+Architect+·+AI-Enabled+Engineering" alt="Hi, I'm Rajan"/>
+<img src="https://readme-typing-svg.demolab.com?font=Carlito&weight=700&size=28&duration=4000&pause=700&color=91E0FF&width=560&lines=Hi%2C+I'm+Rajan+;·+SDET+·+QE+Architect+·+AI-Enabled+Engineering" alt="Hi, I'm Rajan"/>
 </a>
 
-I design quality systems and software solutions that scale: automation architecture across UI, API and backend layers, release gates that protect delivery, and AI-assisted engineering workflows that help teams move faster without losing trust.
+I design quality systems and software solutions that scale: automation architecture across UI, API and backend layers, release gates that protect delivery and AI-assisted engineering workflows that help teams move faster without losing trust.
 
 ### Toolkit
 <a href="https://skillicons.dev">
